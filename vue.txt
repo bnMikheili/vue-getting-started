@@ -7,6 +7,16 @@ Add vue devtool extension on chrome
 Tools 
 	vetur, vue snippets
 	https://www.digitalocean.com/community/tutorials/vuejs-eslint-vue-vetur
+	"editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  	}
+
 Create & Run app commands
 	vue create app_name -d (-d for default)
 	npm run serve
+
+Displaying data
+	v-on (shortcut - @) Event handler
+	v-bind (shortcut - :) One way binding - get as a variable from data (for href, source, image tag)
+	v-model Two way binding (get/set variable from data) for input, select, radio/button
+	{{data.rame}} interpolation, just display a variable
