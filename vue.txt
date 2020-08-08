@@ -1,0 +1,12 @@
+install node using nvm
+	https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+	
+Add vue devtool extension on chrome
+	https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
+
+Tools 
+	vetur, vue snippets
+	https://www.digitalocean.com/community/tutorials/vuejs-eslint-vue-vetur
+Create & Run app commands
+	vue create app_name -d (-d for default)
+	npm run serve
