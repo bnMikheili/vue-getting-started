@@ -5,7 +5,7 @@ Add vue devtool extension on chrome
 	https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
 
 Tools 
-	vetur, vue snippets
+	vetur, vue vscode snippets
 	https://www.digitalocean.com/community/tutorials/vuejs-eslint-vue-vetur
 	"editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
@@ -25,3 +25,18 @@ Displaying lists and conditional content
 	v-if add/remove part of the page only if the condition is met (otherwise it's not even generated)
 	v-for iterates through lists (it's good to set a :key to identify unique values)
 	v-show shows the generated part of the page only if the condition is met
+
+Interacting within a component
+	vdata - data model that is used as component data
+	vcreated, updated, mounted... (lifecycle hooks) - call functions when DOM is created (e.g. to load data from API)
+	asynch with await and Promise - to run function asynchroniously (e.g. to load a data as it needs time)
+	vwatch - run a handler function when a variable is changed (put in ''s for instance variable)
+	vfilter - add filter functions and use them before displaying by just adding '|' and filter name on the right of the variable
+	vcomputed - compute value with dependencies and if any of them changes it's recomputed
+
+Component communication
+	vbase - snippet for a new component
+	vprops - it's ussualy better to copy the object in data to keep immutability logic
+	.$emit - fire the event and pass argument so whoever watches with handle (this way we can update parent)
+	vmixins - merge attributes into the component (it just merges with priority to component attrs,
+		but for watch and hooks it runs both(mixed ones first))
