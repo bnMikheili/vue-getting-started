@@ -40,3 +40,8 @@ Component communication
 	.$emit - fire the event and pass argument so whoever watches with handle (this way we can update parent)
 	vmixins - merge attributes into the component (it just merges with priority to component attrs,
 		but for watch and hooks it runs both(mixed ones first))
+
+Accessing data 
+	axios - Promise based (returns a promise) library for http request
+	async - encapsulate asynchronous logic 
+	try/catch - to check the data	
