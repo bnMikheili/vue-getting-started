@@ -20,3 +20,8 @@ Displaying data
 	v-bind (shortcut - :) One way binding - get as a variable from data (for href, source, image tag)
 	v-model Two way binding (get/set variable from data) for input, select, radio/button
 	{{data.rame}} interpolation, just display a variable
+
+Displaying lists and conditional content
+	v-if add/remove part of the page only if the condition is met (otherwise it's not even generated)
+	v-for iterates through lists (it's good to set a :key to identify unique values)
+	v-show shows the generated part of the page only if the condition is met
